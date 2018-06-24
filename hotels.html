@@ -8,7 +8,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a href="index.html">
-          <img scr="img/logo.svg" width="100px" height="50px" alt="Логотип Седона">
+          <img scr="img/logo.png" width="100px" height="50px" alt="Логотип Седона">
         </a>
         <ul class="site-navigation">
           <li><a href="#">информация</a></li>
@@ -22,41 +22,41 @@
     <main class="container">
       <section class="filter">
         <img src="img/filter-background.jpg" width="1200px" height="120px">
-        <form action="#" method="post" class="infrustructure">
+        <form action="https://echo.htmlacademy.ru" method="post" class="infrustructure">
           <p>инфраструктура</p>
           <label>
-            <input type="radio" name="infrustructure" value="pool"> бассейн
+            <input type="checkbox" name="infrustructure" value="pool" checked> бассейн
           </label>
           <br>
           <label>
-            <input type="radio" name="infrustructure" value="parking"> парковка
+            <input type="checkbox" name="infrustructure" value="parking"> парковка
           </label>
           <br>
           <label>
-            <input type="radio" name="infrustructure" value="wi-fi"> wi-fi
+            <input type="checkbox" name="infrustructure" value="wi-fi"> wi-fi
           </label>
         </form>
 
-        <form action="#" method="post" class="accomodation">
+        <form action="https://echo.htmlacademy.ru" method="post" class="accomodation">
           <p>тип жилья</p>
           <label>
-            <input type="radio" name="accomodation" value="hotel"> гостиница
+            <input type="checkbox" name="accomodation" value="hotel" checked> гостиница
           </label>
           <br>
           <label>
-            <input type="radio" name="accomodation" value="motel"> мотель
+            <input type="checkbox" name="accomodation" value="motel" checked> мотель
           </label>
           <br>
           <label>
-            <input type="radio" name="accomodation" value="appartment"> апартаменты
+            <input type="checkbox" name="accomodation" value="appartment" checked> апартаменты
           </label>
         </form>
 
-        <form action="#" method="post" class="price">
+        <form action="https://echo.htmlacademy.ru" method="post" class="price">
           <label for="price">стоимость в сутки (р):<br>
             <b>от 0</b>
             <b>до 3000</b>
-            <input id-"price" type="range" name="price-range">
+            <input id="price" type="range" name="price-range">
           </label>
 
           <label>
@@ -69,13 +69,13 @@
         <p>найдено:3</p>
         <p>сортировка</p>
         <ul class="sort-list">
-          <li><a class="sort" href="#">по цене</a></li>
-          <li><a class="sort" href="#">по типу</a></li>
-          <li><a class="sort" href="#">по рейтингу</a></li>
+          <li><button class="sort">по цене</button></li>
+          <li><button class="sort">по типу</button></li>
+          <li><button class="sort">по рейтингу</button></li>
         </ul>
         <ul>
-          <li><a class="a-z" href="#">a-z</a></li>
-          <li><a class="z-a" href="#">z-a</a></li>
+          <li><button class=" a-z visually-hidden">a-z</button></li>
+          <li><button class="z-a visually-hidden">z-a</button></li>
         </ul>
       </section>
 
@@ -86,8 +86,8 @@
             <p class="hotels-name">amara resort & spa</p>
             <p>гостиница</p>
             <p>от 4000 р.</p>
-            <a class="detales" href="#">подробнее</a>
-            <a class="book" href="#">забронировать</a>
+            <a href="#" class="detales">подробнее</a>
+            <a href="#" class="book">забронировать</a>
             <p>рейтинг: 8,5</p>
           </li>
           <li class="hotels-item">
@@ -95,8 +95,8 @@
             <p class="hotels-name">desert quail inn</p>
             <p>мотель</p>
             <p>от 3000 р.</p>
-            <a class="detales" href="#">подробнее</a>
-            <a class="book" href="#">забронировать</a>
+            <a href="#" class="detales">подробнее</a>
+            <a href="#" class="book">забронировать</a>
             <p>рейтинг: 8,9</p>
           </li>
           <li class="hotels-item">
@@ -104,8 +104,8 @@
             <p class="hotels-name">villas at poco diablo</p>
             <p>апартаменты</p>
             <p>от 2000 р.</p>
-            <a class="detales" href="#">подробнее</a>
-            <a class="book" href="#">забронировать</a>
+            <a href="#" class="detales">подробнее</a>
+            <a href="#" class="book">забронировать</a>
             <p>рейтинг 9,2</p>
           </li>
       </section>
@@ -115,20 +115,17 @@
       <p>#visitsedona</p>
       <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#">Twitter</a></li>
-          <li><a class="social-button" href="#">Facebook</a></li>
-          <li><a class="social-button" href="#">YouTube</a></li>
+          <li><a class="social-button visually-hidden" href="#">Twitter</a></li>
+          <li><a class="social-button visually-hidden" href="#">Facebook</a></li>
+          <li><a class="social-button visually-hidden" href="#">YouTube</a></li>
         </ul>
       </div>
 
-      <a class="footer-logo">
-      <img src="img/logo-htmlacademy.svg" width="120px" height="50px" alt="Логотип htmlacademy">
+      <p> website by</p>
+      <a class="footer-logo" href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" width="120px" height="50px" alt="Логотип htmlacademy">
       </a>
     </footer>
-
-    <section class="search-form">
-      <!--здесь будет форма-->
-    </section>
 
   </body>
 </html>
